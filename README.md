@@ -45,7 +45,7 @@ It should be noted that the raw data has four outcomes (Succesfull , Failed , Ca
 
 
 
-![Something](/resources/f1.PNG)
+![Something](/resources/Outcome_filter.png)
 
 ### Analysis of Outcomes Based on Launch Date
 
