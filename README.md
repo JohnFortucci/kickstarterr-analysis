@@ -23,7 +23,7 @@ Based on the raw data two addition worksheets have been created :-
 
 A worksheet has been created : Theater Outcomes by Launch Date
 
-![Overview](/resources/TO_overview.PNG)
+![Overview](/resources/TO_overview.png)
 
 
 
