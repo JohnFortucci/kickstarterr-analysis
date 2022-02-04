@@ -73,9 +73,11 @@ The data is only concerned :-
 - Entries in the kickstarter spreadsheet that have a subcategory of plays
 
 The data table contains- 
-- Rows showing various financial goal buckets.
+Markup :- Rows showing various financial goal buckets.
 - Columns showing counts of the various status (Succesful, Failed and Cancelled) allocated to the appropriate range
--- To achive this the excel COUNTIF function is used 
+  - To achieve this the excel COUNTIF function is used , the COUNTIF function references column F to filter based on the outcomes , column R to filter subcategory plays and Column D to determine is the entry should be included in the current range count. 
+  - For example : 
+    =COUNTIFS(Kickstarter!$F:$F,"=successful",Kickstarter!$R:$R,"=plays",Kickstarter!$D:$D,">=1000",Kickstarter!$D:$D,"<=4999") , this will count the number of successful campaigns that fall within a financial goal range of $1000 to $4999.
 - Columns showing the outcome status (Succesful, Failed and Cancelled) based on the total number of projects that meet the goal ranges as percentages.
 ### Challenges and Difficulties Encountered
 
