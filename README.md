@@ -39,7 +39,8 @@ It should be noted that the raw data has four outcomes (Succesfull , Failed , Ca
 
 
 #### Test
-!(localhost::\Users\johnfortucci\Desktop\Rice Classwork\Weekly Challenges\C1 Due Date Feb 6th\resources\f1.PNG)
+
+!(https://github.com/JohnFortucci/kickstarterr-analysis/blob/main/resources/f1.PNG)
 
 ### Analysis of Outcomes Based on Launch Date
 
