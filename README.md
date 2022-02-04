@@ -38,9 +38,9 @@ It should be noted that the raw data has four outcomes (Succesfull , Failed , Ca
 
 
 
-#### Test
 
-!(https://github.com/JohnFortucci/kickstarterr-analysis/blob/main/resources/f1.PNG)
+
+![Something](/resources/f1.PNG)
 
 ### Analysis of Outcomes Based on Launch Date
 
