@@ -22,6 +22,7 @@ Based on the data within worksheet kickstarter , two worksheets have been create
 
 ### Analysis of Outcomes Based on Launch Date
 
+#### Overview
 A worksheet has been created : Theater Outcomes by Launch Date, based on the data in kickstarter worksheet this shows the outcome based on launch date.
 
 This sheet contains a pivot table and a line graph , the pivot table allows the data to be filtered by :-
@@ -53,7 +54,6 @@ The image below shows the worksheet with no filters applies.
 A filter of theater is applied to this data , and this will be used to determine conclusions from the data.
 
 ![Overview](/resources/Theater_Outcomes_vs_Launch.png)
-### Analysis of Outcomes Based on Launch Date
 
 ### Analysis of Outcomes Based on Goals
 
