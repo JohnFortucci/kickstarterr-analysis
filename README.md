@@ -35,13 +35,14 @@ It should be noted that the data within the kickstarter sheet has four possible 
 ![Fileter Live Image](/resources/Outcome_filter.PNG)
 
 #### Pivot table 
-- The month  in rows 
+The pivot table displays :
+- Launch date month in rows 
 - Respective count of the outcomes (Succesfull , Failed and Cancelled) in columns. 
 - A grand total column this is a total of the outcomes : Succesfull , Failed and Cancelled.
 
 #### Line graph
 
-The line graph displays plots the outcomes over calendar month.
+The line graph displays the outcomes over calendar month.
 
 The image below shows the worksheet with no filters applies.
 
@@ -49,9 +50,9 @@ The image below shows the worksheet with no filters applies.
 
 ##### Line graph with filters applied
 
-A filter of THEATER is applied to this data , and this will be used to determine coclusions from the data
+A filter of theater is applied to this data , and this will be used to determine conclusions from the data.
 
-
+![Overview](/resources/Theater_Outcomes_vs_Launch.png)
 ### Analysis of Outcomes Based on Launch Date
 
 ### Analysis of Outcomes Based on Goals
