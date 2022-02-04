@@ -15,6 +15,8 @@ The primary focus of this analysis will be to determine the ultimate outcomes ba
 - Launch date
 - Funding goal
 ## Analysis and Challenges
+
+### Summary
 Based on the data within worksheet kickstarter , two worksheets have been created :-
 - Theater Outcomes by Launch Date
 - Outcomes based on goals
