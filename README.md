@@ -15,18 +15,13 @@ The primary focus of this analysis will be to determine the ultimate outcomes ba
 - Launch date
 - Funding goal
 ## Analysis and Challenges
-Based on the raw data two addition worksheets have been created :-
+Based on the data within worksheet kickstarter , two worksheets have been created :-
 - Theater Outcomes by Launch Date
 - Outcomes based on goals
 
 ### Analysis of Outcomes Based on Launch Date
 
-A worksheet has been created : Theater Outcomes by Launch Date
-
-![Overview](/resources/TO_overview.png)
-
-
-
+A worksheet has been created : Theater Outcomes by Launch Date, based on the data in kiickstarter worksheet this shows the outcome based on launch date.
 
 This sheet contains a pivot table and a line graph , that would allow the data to be filter by two filters.
 - Parent Category
@@ -37,7 +32,9 @@ Therefore allowing the analysis of specific Partent categories and/or specific y
 The pivot table displays :-
 - The month  in rows 
 - Respective count of the outcomes (Succesfull , Failed and Cancelled) in columns. 
-- A grand total column this is a total of the outcomes : Succesfull , Failed and Cancelled
+- A grand total column this is a total of the outcomes : Succesfull , Failed and Cancelled.
+
+![Overview](/resources/TO_overview.png)
 
 It should be noted that the raw data has four outcomes (Succesfull , Failed , Cancelled and Live). As we cannot determine and absolutes outcome for Live , this data will be eliminated from the analysis. This has been achieved by applying a filter to the column labels.
 
