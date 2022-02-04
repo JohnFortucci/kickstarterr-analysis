@@ -45,18 +45,38 @@ The pivot table displays :
 
 The line graph displays the outcomes over calendar month.
 
-The image below shows the worksheet with no filters applies.
+The image below shows the kickstarter data with no filters applies.
 
 ![Overview](/resources/TO_overview.png)
 
 ##### Line graph with filters applied
 
-A filter of theater is applied to this data , and this will be used to determine conclusions from the data.
+The image below shows the line graph with a filter of theater is applied to this data , this graph will be used to form conclusion based on the data.
 
-![Overview](/resources/Theater_Outcomes_vs_Launch.png)
-
+![Overview](/resources/Picture3.png)
 ### Analysis of Outcomes Based on Goals
 
+##### Overview
+A worksheet has been created : Outcome Based on Goals, based on the data in kickstarter worksheet this shows the outcome based on campaign financial goal.
+
+This sheet contains a data table and a line graph. 
+
+The data is only concerned :- 
+- With outcomes that are absolute and therefore outcome status live is not included in this sheet.
+- Entries in the kickstarter spreadsheet that have a subcategory of plays
+
+##### Data table
+The data table shows counts and percentages of outcomes allocated across predefined financial goal ranges. 
+
+The data is only concerned :- 
+- With outcomes that are absolute and therefore outcome status live is not included in this sheet.
+- Entries in the kickstarter spreadsheet that have a subcategory of plays
+
+The data table contains- 
+- Rows showing various financial goal buckets.
+- Columns showing counts of the various status (Succesful, Failed and Cancelled) allocated to the appropriate range
+-- To achive this the excel COUNTIF function is used 
+- Columns showing the outcome status (Succesful, Failed and Cancelled) based on the total number of projects that meet the goal ranges as percentages.
 ### Challenges and Difficulties Encountered
 
 ## Results
