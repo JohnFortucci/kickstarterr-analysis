@@ -5,11 +5,10 @@ This project takes a dataset of crowd funded project , from this data a number o
 
 
 ### Purpose
-The purpose of this analysis was to provide Louise an analysis of similar genre of campaigns and the ultimate outcomes of those campaigns, whether they were ultimately :-
+The purpose of this analysis was to provide a tool to analyse crowd funded campaigns and the outcomes of those campaigns, whether they were ultimately :-
 - Successfull
 - Failed
 - Cancelled
-
 
 The primary focus of this analysis will be to determine the ultimate outcomes based on  :-
 - Launch date
@@ -23,28 +22,35 @@ Based on the data within worksheet kickstarter , two worksheets have been create
 
 ### Analysis of Outcomes Based on Launch Date
 
-A worksheet has been created : Theater Outcomes by Launch Date, based on the data in kiickstarter worksheet this shows the outcome based on launch date.
+A worksheet has been created : Theater Outcomes by Launch Date, based on the data in kickstarter worksheet this shows the outcome based on launch date.
 
-This sheet contains a pivot table and a line graph , that would allow the data to be filter by two filters.
+This sheet contains a pivot table and a line graph , the pivot table allows the data to be filtered by :-
 - Parent Category
 - Years
 
-Therefore allowing the analysis of specific Partent categories and/or specific year if required by selecting the desired criteria.
+Therefore allowing the analysis of certain views of the data based on parent categories and/or specific year , by selecting the desired criteria.
 
-The pivot table displays :-
+It should be noted that the data within the kickstarter sheet has four possible outcomes (Succesfull , Failed , Cancelled and Live). As we cannot determine and absolutes outcome for live , this data will be eliminated from the analysis. This has been achieved by applying a filter to the column labels.
+
+![Fileter Live Image](/resources/Outcome_filter.PNG)
+
+#### Pivot table 
 - The month  in rows 
 - Respective count of the outcomes (Succesfull , Failed and Cancelled) in columns. 
 - A grand total column this is a total of the outcomes : Succesfull , Failed and Cancelled.
 
+#### Line graph
+
+The line graph displays plots the outcomes over calendar month.
+
+The image below shows the worksheet with no filters applies.
+
 ![Overview](/resources/TO_overview.png)
 
-It should be noted that the raw data has four outcomes (Succesfull , Failed , Cancelled and Live). As we cannot determine and absolutes outcome for Live , this data will be eliminated from the analysis. This has been achieved by applying a filter to the column labels.
+##### Line graph with filters applied
 
+A filter of THEATER is applied to this data , and this will be used to determine coclusions from the data
 
-
-
-
-![Something](/resources/Outcome_filter.PNG)
 
 ### Analysis of Outcomes Based on Launch Date
 
