@@ -86,6 +86,9 @@ The data table contains-
 - Total projects uses the excel SUM function , totaling the Number Successful , NUmber Failed and Number Cancelled.
 - Columns showing the outcome status (Succesful, Failed and Cancelled) based on the total number of projects that meet the goal ranges as percentages.
 - To achieve this a calculation is used based on the count of outcome status divided by the total number of projects of that particular goal range. These cells are formatted as percentage cells and are formatted to 1 decimal place this was mainly for cosmetic purpose as excel was rounding some cells that would have gave a visual count of above 100%.
+
+- The images below shows the makeup of the data table the line graph is based on
+![Overview](/resources/OBG_Datatable.PNG)
 ### Challenges and Difficulties Encountered
 
 ## Results
