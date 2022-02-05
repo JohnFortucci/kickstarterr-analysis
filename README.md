@@ -77,13 +77,14 @@ The data table contains-
 - Columns showing counts of the various status (Succesful, Failed and Cancelled) allocated to the appropriate range
 - To achieve this the excel COUNTIF function is used , the COUNTIF function references column F to filter based on the outcomes , column R to filter subcategory plays and Column D to determine is the entry should be included in the current range count. 
  
- 
-      For example :
+   For example
+
+   =COUNTIFS(Kickstarter!$F:$F,"=successful",Kickstarter!$R:$R,"=plays",Kickstarter!$D:$D,">=1000",Kickstarter!$D:$D,"<=4999") 
    
-      =COUNTIFS(Kickstarter!$F:$F,"=successful",Kickstarter!$R:$R,"=plays",Kickstarter!$D:$D,">=1000",Kickstarter!$D:$D,"<=4999") 
-      This will count the number of successful campaigns for subcategory plays that fall within a financial goal range of $1000 to $4999.
-      The $ sign prefixing the the row reference allows the copy and pasting of the formula and allows the changing of inclusion criteria keeping the row reference static.
-- Total projects uses the excel SUM function , totaling the Number Successful , NUmber Failed and Number Cancelled.
+   This will count the number of successful campaigns for subcategory plays that fall within a financial goal range of $1000 to $4999.
+   The $ sign prefixing the the row reference allows the copy and pasting of the formula and allows the changing of inclusion criteria keeping the row reference static.
+ 
+- Total projects uses the excel SUM function , totaling the Number Successful , Number Failed and Number Cancelled.
 - Columns showing the outcome status (Succesful, Failed and Cancelled) based on the total number of projects that meet the goal ranges as percentages.
 - To achieve this a calculation is used based on the count of outcome status divided by the total number of projects of that particular goal range. These cells are formatted as percentage cells and are formatted to 1 decimal place this was mainly for cosmetic purpose as excel was rounding some cells that would have gave a visual count of above 100%.
 
@@ -91,10 +92,16 @@ The data table contains-
 ![Overview](/resources/OBG_Datatable.PNG)
 ### Challenges and Difficulties Encountered
 
+During the challenge the one item I kept reviewing was the ranges of the goals for the Outcome Based on Goals , the main question being whether or not to round up or round down the decimal value if any in the goal amount. 
+
+I reviewed the data in the kickstarter sheet to check if this would impact any of the data we are using , to do this I created a temporary column that took the value in the goal column and subrtracted the integer value of the goal for each row, if the value was greater than zero , I put text in the temporary column "Has decimal value". Then filtered the data with subcategory plays. There where no entries displayed , I concluded that this condition would not impact the data set we are concerned with but would affect some other sub categories. With that said I decided to make the range uper value to included the decimal .99.
 ## Results
 
-- What are two conclusions you can draw about the Outcomes based on Launch Date?
+### Conclusions based on Theater Outcomes by Launch Date
 
+From the graph created in the Theater Outcomes by Launch date the following conclusions ban be made.
+
+1, The most 
 - What can you conclude about the Outcomes based on Goals?
 
 - What are some limitations of this dataset?
