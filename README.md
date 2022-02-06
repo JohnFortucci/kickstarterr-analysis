@@ -79,7 +79,7 @@ The data table contains-
  
    For example
 
-   =COUNTIFS(Kickstarter!$F:$F,"=successful",Kickstarter!$R:$R,"=plays",Kickstarter!$D:$D,">=1000",Kickstarter!$D:$D,"<=4999") 
+   =COUNTIFS(Kickstarter!$F:$F,"=successful",Kickstarter!$R:$R,"=plays",Kickstarter!$D:$D,">=1000",Kickstarter!$D:$D,"<=4999.99") 
    
    This will count the number of successful campaigns for subcategory plays that fall within a financial goal range of $1000 to $4999.
    The $ sign prefixing the the row reference allows the copy and pasting of the formula and allows the changing of inclusion criteria keeping the row reference static.
@@ -94,16 +94,31 @@ The data table contains-
 
 During the challenge the one item I kept reviewing was the ranges of the goals for the Outcome Based on Goals , the main question being whether or not to round up or round down the decimal value if any in the goal amount. 
 
-I reviewed the data in the kickstarter sheet to check if this would impact any of the data we are using , to do this I created a temporary column that took the value in the goal column and subrtracted the integer value of the goal for each row, if the value was greater than zero , I put text in the temporary column "Has decimal value". Then filtered the data with subcategory plays. There where no entries displayed , I concluded that this condition would not impact the data set we are concerned with but would affect some other sub categories. With that said I decided to make the range uper value to included the decimal .99.
+I reviewed the data in the kickstarter sheet to check if this would impact any of the data we are using , to do this I created a temporary column that took the value in the goal column and subrtracted the integer value of the goal for each row, if the value was greater than zero , I put text in the temporary column "Has decimal value". Then filtered the data with subcategory plays. There where no entries displayed , I concluded that this condition would not impact the data set we are concerned with but would affect some other sub categories. With that said I decided to make the range upper values to included the decimal .99.
 ## Results
 
 ### Conclusions based on Theater Outcomes by Launch Date
 
-From the graph created in the Theater Outcomes by Launch date the following conclusions ban be made.
+From the graph created in the Theater Outcomes by Launch date the following conclusions can be made.
 
-1, The most 
-- What can you conclude about the Outcomes based on Goals?
+1. The most successful campaigns are in the month of May.
+2. In the month of December there is no significant advantage in successes. All other months showed a greater number of success to failure.
 
-- What are some limitations of this dataset?
+### Conclusions based on Theater Outcomes based on Goals
+
+From the graph created in the Theater Outcomes based on Goals the following conclusions can be made. 
+
+1. The greater the amount of the goal the chanes for failure increase , the most successful campaigns are at the lower end of the goal range. The succesful trend is on decline as the goal value increase failures become the greater value around about the $15000 goal range.
+2. No campaigns got cancelled for funding issues
+
+### Limitations of this dataset
+
+The data set has some limitations :- 
+1. The data set contains data from 2009 to 2017 , assuming we are doing this analysis in present day 2022 the data is not current.
+2. The data does not represent increased funding mechanisms available for example with the increased adoption of websites like GOFUNDME.com etc , these became more prevalent      during the data renge of the data.
+3. There is no method of representing current events in the data , for example you would have to assume that if data was present for 2020 / 2021 the data would be impacted by COVID 
 
 - What are some other possible tables and/or graphs that we could create?
+### Other possible tables and / or graphs
+
+1. A table and graph of Outcomes based on goals by country.
