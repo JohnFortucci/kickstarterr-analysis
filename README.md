@@ -92,6 +92,9 @@ The data table contains-
 
 - The images below shows the makeup of the data table the line graph is based on
 ![Overview](/resources/OBG_Datatable.PNG)
+
+- From the above table a line graph will has been created showing the goal amount ranges and the percentage successful , failed and cancelled. This graph will be used to form conclusions from the data.
+![Overview](/resources/Outcomes_vs_Goals.png)
 ### Challenges and Difficulties Encountered
 
 During the challenge the one item I kept reviewing was the ranges of the goals for the Outcome Based on Goals , the main question being whether or not to round up or round down the decimal value if any in the goal amount. 
