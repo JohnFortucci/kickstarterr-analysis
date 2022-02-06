@@ -112,7 +112,7 @@ The graph below was created in the Theater Outcomes by Launch date sheet , from 
 
 The graph below was created in the Theater Outcomes based on Goals sheet, from this graph the following conclusions can be made.
 
-![Overview](/resources/Outcomes_vs_Goals.PNG)
+![Overview](/resources/Outcomes_vs_Goals.png)
 
 
 1. The greater the amount of the goal the chanes for failure increase , the most successful campaigns are at the lower end of the goal range. The succesful trend is on decline as the goal value increase failures become the greater value around about the $15000 goal range.
