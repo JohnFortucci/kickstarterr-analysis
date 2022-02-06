@@ -26,7 +26,7 @@ The kickstarter sheet was modified to include a column for years this is based o
 
 #### Overview
 A worksheet has been created : Theater Outcomes by Launch Date, based on the data in kickstarter worksheet this shows the outcome based on launch date.
-
+ 
 This sheet contains a pivot table and a line graph , the pivot table allows the data to be filtered by :-
 - Parent Category
 - Years
