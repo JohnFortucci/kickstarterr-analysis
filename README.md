@@ -55,7 +55,6 @@ The image below shows the kickstarter data with no filters applies.
 
 The image below shows the line graph with a filter of theater is applied to this data , this graph will be used to form conclusion based on the data.
 
-![Overview](/resources/Picture3.png)
 ![Overview](/resources/Theater_Outcomes_vs_Launch.png)
 ### Analysis of Outcomes Based on Goals
 
@@ -102,14 +101,19 @@ I reviewed the data in the kickstarter sheet to check if this would impact any o
 
 ### Conclusions based on Theater Outcomes by Launch Date
 
-From the graph created in the Theater Outcomes by Launch date the following conclusions can be made.
+The graph below was created in the Theater Outcomes by Launch date sheet , from this graph the following conclusions can be made.
+
+![Overview](/resources/Theater_Outcomes_vs_Launch.png)
 
 1. The most successful campaigns are in the month of May.
 2. In the month of December there is no significant advantage in successes. All other months showed a greater number of success to failure.
 
 ### Conclusions based on Theater Outcomes based on Goals
 
-From the graph created in the Theater Outcomes based on Goals the following conclusions can be made. 
+The graph below was created in the Theater Outcomes based on Goals sheet, from this graph the following conclusions can be made.
+
+![Overview](/resources/Outcomes_vs_Goals.PNG)
+
 
 1. The greater the amount of the goal the chanes for failure increase , the most successful campaigns are at the lower end of the goal range. The succesful trend is on decline as the goal value increase failures become the greater value around about the $15000 goal range.
 2. No campaigns got cancelled for funding issues
