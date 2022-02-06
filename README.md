@@ -20,6 +20,8 @@ Based on the data within worksheet kickstarter , two worksheets have been create
 - Theater Outcomes by Launch Date
 - Outcomes based on goals
 
+The kickstarter sheet was modified to include a column for years this is based on the date created field , and is used in the pivot table created in the worksheet : Theater Outcomes by Launch Date
+
 ### Analysis of Outcomes Based on Launch Date
 
 #### Overview
