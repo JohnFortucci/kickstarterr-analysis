@@ -56,6 +56,7 @@ The image below shows the kickstarter data with no filters applies.
 The image below shows the line graph with a filter of theater is applied to this data , this graph will be used to form conclusion based on the data.
 
 ![Overview](/resources/Picture3.png)
+![Overview](/resources/Theater_Outcomes_vs_Launch.png)
 ### Analysis of Outcomes Based on Goals
 
 ##### Overview
