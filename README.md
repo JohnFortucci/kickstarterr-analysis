@@ -49,13 +49,13 @@ The line graph displays the outcomes over calendar month.
 
 The image below shows the kickstarter data with no filters applies.
 
-![Overview](/resources/TO_overview.png)
+![Image of TO by LD sheet](/resources/TO_overview.png)
 
 ##### Line graph with filters applied
 
 The image below shows the line graph with a filter of theater is applied to this data , this graph will be used to form conclusion based on the data.
 
-![Overview](/resources/Theater_Outcomes_vs_Launch.png)
+![Graph Theater Outcomes vs Launch](/resources/Theater_Outcomes_vs_Launch.png)
 ### Analysis of Outcomes Based on Goals
 
 ##### Overview
@@ -91,10 +91,10 @@ The data table contains-
 - To achieve this a calculation is used based on the count of outcome status divided by the total number of projects of that particular goal range. These cells are formatted as percentage cells and are formatted to 1 decimal place this was mainly for cosmetic purpose as excel was rounding some cells that would have gave a visual count of above 100%.
 
 - The images below shows the makeup of the data table the line graph is based on
-![Overview](/resources/OBG_Datatable.PNG)
+![Image OBG Table](/resources/OBG_Datatable.PNG)
 
 - From the above table a line graph will has been created showing the goal amount ranges and the percentage successful , failed and cancelled. This graph will be used to form conclusions from the data.
-![Overview](/resources/Outcomes_vs_Goals.png)
+![Graph Outcomes vs Goals](/resources/Outcomes_vs_Goals.png)
 ### Challenges and Difficulties Encountered
 
 During the challenge the one item I kept reviewing was the ranges of the goals for the Outcome Based on Goals , the main question being whether or not to round up or round down the decimal value if any in the goal amount. 
@@ -106,7 +106,7 @@ I reviewed the data in the kickstarter sheet to check if this would impact any o
 
 The graph below was created in the Theater Outcomes by Launch date sheet , from this graph the following conclusions can be made.
 
-![Overview](/resources/Theater_Outcomes_vs_Launch.png)
+![Graph Theater Outcome vs Launch](/resources/Theater_Outcomes_vs_Launch.png)
 
 1. The most successful campaigns are in the month of May.
 2. In the month of December there is no significant advantage in successes. All other months showed a greater number of success to failure.
@@ -115,7 +115,7 @@ The graph below was created in the Theater Outcomes by Launch date sheet , from 
 
 The graph below was created in the Theater Outcomes based on Goals sheet, from this graph the following conclusions can be made.
 
-![Overview](/resources/Outcomes_vs_Goals.png)
+![Graph Outcomes vs Goals](/resources/Outcomes_vs_Goals.png)
 
 
 1. The greater the amount of the goal the chanes for failure increase , the most successful campaigns are at the lower end of the goal range. The succesful trend is on decline as the goal value increase failures become the greater value around about the $15000 goal range.
