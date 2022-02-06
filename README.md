@@ -6,7 +6,7 @@ This project takes a dataset of crowd funded project , from this data a number o
 
 ### Purpose
 The purpose of this analysis was to provide a tool to analyse crowd funded campaigns and the outcomes of those campaigns, whether they were ultimately :-
-- Successfull
+- Successful
 - Failed
 - Cancelled
 
@@ -33,15 +33,15 @@ This sheet contains a pivot table and a line graph , the pivot table allows the 
 
 Therefore allowing the analysis of certain views of the data based on parent categories and/or specific year , by selecting the desired criteria.
 
-It should be noted that the data within the kickstarter sheet has four possible outcomes (Succesfull , Failed , Cancelled and Live). As we cannot determine and absolutes outcome for live , this data will be eliminated from the analysis. This has been achieved by applying a filter to the column labels.
+It should be noted that the data within the kickstarter sheet has four possible outcomes (Successful , Failed , Cancelled and Live). As we cannot determine and absolutes outcome for live , this data will be eliminated from the analysis. This has been achieved by applying a filter to the column labels.
 
 ![Fileter Live Image](/resources/Outcome_filter.PNG)
 
 #### Pivot table 
 The pivot table displays :
 - Launch date month in rows 
-- Respective count of the outcomes (Succesfull , Failed and Cancelled) in columns. 
-- A grand total column this is a total of the outcomes : Succesfull , Failed and Cancelled.
+- Respective count of the outcomes (Successful , Failed and Cancelled) in columns. 
+- A grand total column this is a total of the outcomes : Successful , Failed and Cancelled.
 
 #### Line graph
 
@@ -76,7 +76,7 @@ The data is only concerned :-
 
 The data table contains- 
 - Rows showing various financial goal buckets.
-- Columns showing counts of the various status (Succesful, Failed and Cancelled) allocated to the appropriate range
+- Columns showing counts of the various status (Successful, Failed and Cancelled) allocated to the appropriate range
 - To achieve this the excel COUNTIF function is used , the COUNTIF function references column F to filter based on the outcomes , column R to filter subcategory plays and Column D to determine is the entry should be included in the current range count. 
  
    For example
@@ -87,7 +87,7 @@ The data table contains-
    The $ sign prefixing the the row reference allows the copy and pasting of the formula and allows the changing of inclusion criteria keeping the row reference static.
  
 - Total projects uses the excel SUM function , totaling the Number Successful , Number Failed and Number Cancelled.
-- Columns showing the outcome status (Succesful, Failed and Cancelled) based on the total number of projects that meet the goal ranges as percentages.
+- Columns showing the outcome status (Successful, Failed and Cancelled) based on the total number of projects that meet the goal ranges as percentages.
 - To achieve this a calculation is used based on the count of outcome status divided by the total number of projects of that particular goal range. These cells are formatted as percentage cells and are formatted to 1 decimal place this was mainly for cosmetic purpose as excel was rounding some cells that would have gave a visual count of above 100%.
 
 - The images below shows the makeup of the data table the line graph is based on
@@ -118,17 +118,16 @@ The graph below was created in the Theater Outcomes based on Goals sheet, from t
 ![Graph Outcomes vs Goals](/resources/Outcomes_vs_Goals.png)
 
 
-1. The greater the amount of the goal the chanes for failure increase , the most successful campaigns are at the lower end of the goal range. The succesful trend is on decline as the goal value increase failures become the greater value around about the $15000 goal range.
+1. The greater the amount of the goal the chanes for failure increase , the most successful campaigns are at the lower end of the goal range. The successful trend is on decline as the goal value increase failures become the greater value around about the $15000 goal range.
 2. No campaigns got cancelled for funding issues
 
 ### Limitations of this dataset
 
 The data set has some limitations :- 
 1. The data set contains data from 2009 to 2017 , assuming we are doing this analysis in present day 2022 the data is not current.
-2. The data does not represent increased funding mechanisms available for example with the increased adoption of websites like GOFUNDME.com etc , these became more prevalent      during the data renge of the data.
+2. The data does not represent increased funding mechanisms available for example with the increased adoption of websites like GOFUNDME.com etc , these became more prevalent      during the later part of the data's date period.
 3. There is no method of representing current events in the data , for example you would have to assume that if data was present for 2020 / 2021 the data would be impacted by COVID 
 
-- What are some other possible tables and/or graphs that we could create?
 ### Other possible tables and / or graphs
 
 1. A table and graph of Outcomes based on goals by country.
